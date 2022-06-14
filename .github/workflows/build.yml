@@ -1,0 +1,17 @@
+name: Test
+on: [ push ]
+jobs:
+  Test:
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Docker Build
+        run: |
+          docker build -t autonomouslogic/semantic-release .
+
+      - name: Docker Run
+        run: |
+          docker run autonomouslogic/semantic-release true

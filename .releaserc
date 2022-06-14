@@ -1,0 +1,36 @@
+{
+  "dryRun": false,
+  "ci": false,
+  "branches": [
+    "main"
+  ],
+  "tagFormat": "${version}",
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "conventionalcommits",
+        "releaseRules": [
+          {
+            "type": "chore",
+            "scope": "deps",
+            "release": "patch"
+          }
+        ]
+      }
+    ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "conventionalcommits"
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "publishCmd": "./publish.sh ${nextRelease.version}"
+      }
+    ],
+    "@semantic-release/github"
+  ]
+}

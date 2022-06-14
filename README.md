@@ -1,2 +1,26 @@
-# semantic-release-docker
+# Semantic Release Docker
 Docker image for running Semantic Release tasks.
+
+Installed packages:
+* Git
+* Node
+* YARN
+* Docker
+* Java
+* Gradle
+* `jq`
+* GitHub CLI `gh`
+* Semantic Release CLI and several plugins
+* _Submit a PR to add more_
+
+## Usage
+```shell
+docker run --env GH_TOKEN -v $PWD:/usr/src/app -v $HOME/.docker:/root/.docker autonomouslogic/semantic-release
+```
+
+## Versioning
+This Docker image follows [semantic versioning](https://semver.org/).
+
+## License
+This Docker image is licensed under the [MIT-0 license](https://spdx.org/licenses/MIT-0.html),
+although it depends on or includes software under different licenses.
