@@ -15,7 +15,7 @@ Installed packages:
 
 ## Usage
 ```shell
-docker run --env GH_TOKEN -v $PWD:/usr/src/app -v $HOME/.docker:/root/.docker autonomouslogic/semantic-release
+docker run --env GH_TOKEN -v $PWD:/usr/src/app -v $HOME/.docker:/root/.docker -v /var/run/docker.sock:/var/run/docker.sock autonomouslogic/semantic-release
 ```
 
 ## Versioning
