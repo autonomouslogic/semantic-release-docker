@@ -14,4 +14,4 @@ jobs:
 
       - name: Docker Run
         run: |
-          docker run autonomouslogic/semantic-release true
+          docker run --entrypoint true autonomouslogic/semantic-release
