@@ -6,16 +6,17 @@ Docker image for running Semantic Release tasks.
 [![GitHub](https://img.shields.io/github/license/autonomouslogic/semantic-release-docker)](https://spdx.org/licenses/MIT-0.html)
 
 Installed packages:
-* Git
-* Node
-* YARN
-* Docker
-* Java
-* Gradle
-* `jq`
-* GitHub CLI `gh`
 * Semantic Release CLI and several plugins
-* _Submit a PR to add more_
+* Git
+* Docker
+* Node
+  * YARN
+* Java
+  * Gradle
+  * Maven
+* _Tools_
+  * [`jq`](https://stedolan.github.io/jq/)
+  * [GitHub CLI `gh`](https://cli.github.com/)
 
 ## Usage
 ```shell
