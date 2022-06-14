@@ -1,7 +1,7 @@
 # Semantic Release Docker
 Docker image for running Semantic Release tasks.
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/autonomouslogic/semantic-release-docker)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/autonomouslogic/semantic-release-docker)](https://github.com/autonomouslogic/semantic-release-docker/releases)
 [![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/autonomouslogic/semantic-release-docker/Test/main)](https://github.com/autonomouslogic/semantic-release-docker/actions)
 [![GitHub](https://img.shields.io/github/license/autonomouslogic/semantic-release-docker)](https://spdx.org/licenses/MIT-0.html)
 
