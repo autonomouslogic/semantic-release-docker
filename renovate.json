@@ -12,6 +12,10 @@
   "prHourlyLimit": 0,
   "packageRules": [
     {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
       "matchPackageNames": ["node"],
       "allowedVersions": "=16"
     },
