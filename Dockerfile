@@ -45,5 +45,5 @@ RUN cat package.json | jq -r '.devDependencies | to_entries | map("\(.key)@\(.va
 WORKDIR /usr/src/app
 RUN git config --global --add safe.directory /usr/src/app
 
-ENTRYPOINT "semantic-release"
-CMD "--help"
+ENTRYPOINT [ "semantic-release" ]
+CMD [ "--help" ]
