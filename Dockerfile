@@ -28,7 +28,7 @@ RUN install-tool java 11.0.15+10
 RUN install-tool gradle 7.4.2
 
 # renovate: datasource=maven lookupName=org.apache.maven:maven
-RUN install-tool maven 3.6.3
+RUN install-tool maven 3.8.6
 
 RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
 RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" \
