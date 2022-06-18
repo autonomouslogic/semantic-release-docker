@@ -12,16 +12,39 @@
   "prHourlyLimit": 0,
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch"],
+      "description": "Auto-merge minor updates.",
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
       "automerge": true
     },
     {
-      "matchPackageNames": ["node"],
+      "description": "Limit Node version.",
+      "matchPackageNames": [
+        "node"
+      ],
       "allowedVersions": "=16"
     },
     {
-      "matchPackageNames": ["java"],
+      "description": "Limit Java version.",
+      "matchPackageNames": [
+        "java"
+      ],
       "allowedVersions": "=11"
+    }
+  ],
+  "regexManagers": [
+    {
+      "description": "Update install-* Buildpack commands in Dockerfiles - from renovatebot/.github",
+      "fileMatch": [
+        "(^|/|\\.)Dockerfile$",
+        "(^|/)Dockerfile\\.[^/]*$"
+      ],
+      "matchStrings": [
+        "# renovate: datasource=(?<datasource>[a-z-]+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?\\sRUN install-[a-z]+? (?<depName>[a-z-]+?) (?<currentValue>.+?)\\s"
+      ],
+      "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
     }
   ]
 }
