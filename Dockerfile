@@ -27,7 +27,7 @@ RUN install-tool java 11.0.15+10
 # renovate: datasource=gradle-version versioning=gradle
 RUN install-tool gradle 7.4.2
 
-# renovate: datasource=maven versioning=maven
+# renovate: datasource=maven lookupName=org.apache.maven:maven
 RUN install-tool maven 3.6.3
 
 RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
