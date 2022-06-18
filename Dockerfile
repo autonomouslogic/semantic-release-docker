@@ -16,7 +16,7 @@ RUN install-tool git v2.36.1
 RUN install-tool node 16.15.1
 
 # renovate: datasource=npm
-RUN install-tool yarn 1.22.18
+RUN install-tool yarn 1.22.19
 
 # renovate: datasource=docker versioning=docker
 RUN install-tool docker 20.10.17
