@@ -1,4 +1,4 @@
-FROM containerbase/buildpack:4.6.3
+FROM containerbase/buildpack:4.6.4
 
 LABEL name="semantic-release" \
   maintainer="Kenneth Jørgensen <kenneth@autonomouslogic.com>" \
@@ -10,7 +10,7 @@ LABEL name="semantic-release" \
 WORKDIR /usr/src/semantic-release
 
 # renovate: datasource=github-tags lookupName=git/git
-RUN install-tool git v2.37.0
+RUN install-tool git v2.37.1
 
 # renovate: datasource=docker versioning=docker
 RUN install-tool node 16.16.0
