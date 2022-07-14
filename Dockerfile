@@ -25,7 +25,7 @@ RUN install-tool docker 20.10.17
 RUN install-tool java 11.0.15+10
 
 # renovate: datasource=gradle-version versioning=gradle
-RUN install-tool gradle 7.4.2
+RUN install-tool gradle 7.5
 
 # renovate: datasource=maven lookupName=org.apache.maven:maven
 RUN install-tool maven 3.8.6
