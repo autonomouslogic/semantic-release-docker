@@ -1,4 +1,4 @@
-FROM containerbase/buildpack:4.7.0
+FROM containerbase/buildpack:4.7.3
 
 LABEL name="semantic-release" \
   maintainer="Kenneth Jørgensen <kenneth@autonomouslogic.com>" \
