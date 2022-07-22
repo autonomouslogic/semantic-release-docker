@@ -1,5 +1,12 @@
 Semantic Release Docker Changelog
 
+## [1.1.11](https://github.com/autonomouslogic/semantic-release-docker/compare/1.1.10...1.1.11) (2022-07-22)
+
+
+### Dependency Updates
+
+* **deps:** update dependency java to v11.0.16+8 ([#17](https://github.com/autonomouslogic/semantic-release-docker/issues/17)) ([9c98441](https://github.com/autonomouslogic/semantic-release-docker/commit/9c98441e8cdfb19af70e735a9cd3a4ada16c8b10))
+
 ## [1.1.10](https://github.com/autonomouslogic/semantic-release-docker/compare/1.1.9...1.1.10) (2022-07-20)
 
 
