@@ -1,5 +1,12 @@
 Semantic Release Docker Changelog
 
+## [1.1.16](https://github.com/autonomouslogic/semantic-release-docker/compare/1.1.15...1.1.16) (2022-08-07)
+
+
+### Dependency Updates
+
+* **deps:** update dependency gradle to v7.5.1 ([#22](https://github.com/autonomouslogic/semantic-release-docker/issues/22)) ([a25668b](https://github.com/autonomouslogic/semantic-release-docker/commit/a25668bfd90eb7fe7b04817e604f5ee3c24ca438))
+
 ## [1.1.15](https://github.com/autonomouslogic/semantic-release-docker/compare/1.1.14...1.1.15) (2022-08-03)
 
 
