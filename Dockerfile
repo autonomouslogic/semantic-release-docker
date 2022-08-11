@@ -10,7 +10,7 @@ LABEL name="semantic-release" \
 WORKDIR /usr/src/semantic-release
 
 # renovate: datasource=github-tags lookupName=git/git
-RUN install-tool git v2.37.1
+RUN install-tool git v2.37.2
 
 # renovate: datasource=docker versioning=docker
 RUN install-tool node 16.16.0
