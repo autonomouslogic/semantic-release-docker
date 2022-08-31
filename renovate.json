@@ -1,24 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
-    "group:allNonMajor",
-    "group:recommended"
+    "github>autonomouslogic/renovate-config"
   ],
-  "reviewers": [
-    "kennethjor"
-  ],
-  "prConcurrentLimit": 0,
-  "prHourlyLimit": 0,
   "packageRules": [
-    {
-      "description": "Auto-merge minor updates.",
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "automerge": true
-    },
     {
       "description": "Limit Node version.",
       "matchPackageNames": [
