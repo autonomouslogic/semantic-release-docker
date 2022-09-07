@@ -1,5 +1,17 @@
 Semantic Release Docker Changelog
 
+## [1.1.22](https://github.com/autonomouslogic/semantic-release-docker/compare/1.1.21...1.1.22) (2022-09-07)
+
+
+### Continuous Integration
+
+* shared renovate config [skip ci] ([2830879](https://github.com/autonomouslogic/semantic-release-docker/commit/283087971ccfc0bf6fc7629c8e9a84ca0789234c))
+
+
+### Dependency Updates
+
+* **deps:** update containerbase/buildpack docker tag to v4.13.6 ([#28](https://github.com/autonomouslogic/semantic-release-docker/issues/28)) ([98e2f3d](https://github.com/autonomouslogic/semantic-release-docker/commit/98e2f3d849cb7085c64bf18888eb92cb2b170634))
+
 ## [1.1.21](https://github.com/autonomouslogic/semantic-release-docker/compare/1.1.20...1.1.21) (2022-08-31)
 
 
