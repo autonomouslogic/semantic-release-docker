@@ -1,4 +1,4 @@
-FROM containerbase/buildpack:4.13.6
+FROM containerbase/buildpack:4.14.0
 
 LABEL name="semantic-release" \
   maintainer="Kenneth Jørgensen <kenneth@autonomouslogic.com>" \
@@ -19,7 +19,7 @@ RUN install-tool node 16.17.0
 RUN install-tool yarn 1.22.19
 
 # renovate: datasource=docker versioning=docker
-RUN install-tool docker 20.10.17
+RUN install-tool docker 20.10.18
 
 # renovate: datasource=adoptium-java
 RUN install-tool java 11.0.16+8
