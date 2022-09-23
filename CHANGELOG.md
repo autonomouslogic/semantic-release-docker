@@ -1,5 +1,22 @@
 Semantic Release Docker Changelog
 
+## [1.2.0](https://github.com/autonomouslogic/semantic-release-docker/compare/1.1.24...1.2.0) (2022-09-23)
+
+
+### Features
+
+* **deps:** update dependency java to v17 ([#32](https://github.com/autonomouslogic/semantic-release-docker/issues/32)) ([cb43742](https://github.com/autonomouslogic/semantic-release-docker/commit/cb43742bdffa649805daecffc16d9e3845f91cea))
+
+
+### Continuous Integration
+
+* Allowed up to Java version 17 ([f41f818](https://github.com/autonomouslogic/semantic-release-docker/commit/f41f818f5343bf0a2460a20025ce9cbe927e72fc))
+
+
+### Dependency Updates
+
+* **deps:** update containerbase/buildpack docker tag to v4.16.0 ([#31](https://github.com/autonomouslogic/semantic-release-docker/issues/31)) ([eb3080a](https://github.com/autonomouslogic/semantic-release-docker/commit/eb3080a915dee4c85209e88c491c49d3ab0def9b))
+
 ## [1.1.24](https://github.com/autonomouslogic/semantic-release-docker/compare/1.1.23...1.1.24) (2022-09-20)
 
 
