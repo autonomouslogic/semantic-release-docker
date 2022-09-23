@@ -16,7 +16,7 @@
       "matchPackageNames": [
         "java"
       ],
-      "allowedVersions": "=11"
+      "allowedVersions": "=17"
     }
   ],
   "regexManagers": [
