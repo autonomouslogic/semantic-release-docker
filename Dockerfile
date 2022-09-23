@@ -22,7 +22,7 @@ RUN install-tool yarn 1.22.19
 RUN install-tool docker 20.10.18
 
 # renovate: datasource=adoptium-java
-RUN install-tool java 11.0.16+8
+RUN install-tool java 17.0.4+8
 
 # renovate: datasource=gradle-version versioning=gradle
 RUN install-tool gradle 7.5.1
