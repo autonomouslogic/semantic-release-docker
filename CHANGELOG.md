@@ -1,5 +1,12 @@
 Semantic Release Docker Changelog
 
+## [1.2.1](https://github.com/autonomouslogic/semantic-release-docker/compare/1.2.0...1.2.1) (2022-10-03)
+
+
+### Dependency Updates
+
+* **deps:** update node.js to v16.17.1 ([#33](https://github.com/autonomouslogic/semantic-release-docker/issues/33)) ([d10e5ea](https://github.com/autonomouslogic/semantic-release-docker/commit/d10e5ea1ac2db5cce07de363cd73eda90fd0274e))
+
 ## [1.2.0](https://github.com/autonomouslogic/semantic-release-docker/compare/1.1.24...1.2.0) (2022-09-23)
 
 
