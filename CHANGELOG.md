@@ -1,5 +1,12 @@
 Semantic Release Docker Changelog
 
+## [1.2.2](https://github.com/autonomouslogic/semantic-release-docker/compare/1.2.1...1.2.2) (2022-10-13)
+
+
+### Dependency Updates
+
+* **deps:** update amannn/action-semantic-pull-request action to v5 ([#34](https://github.com/autonomouslogic/semantic-release-docker/issues/34)) ([f9c2591](https://github.com/autonomouslogic/semantic-release-docker/commit/f9c259194da35ebab2a6c91662d3c9e01e7012ad))
+
 ## [1.2.1](https://github.com/autonomouslogic/semantic-release-docker/compare/1.2.0...1.2.1) (2022-10-03)
 
 
