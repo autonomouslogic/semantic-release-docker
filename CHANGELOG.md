@@ -1,5 +1,12 @@
 Semantic Release Docker Changelog
 
+## [1.2.3](https://github.com/autonomouslogic/semantic-release-docker/compare/1.2.2...1.2.3) (2022-11-02)
+
+
+### Dependency Updates
+
+* **deps:** update containerbase/buildpack docker tag to v5 ([#35](https://github.com/autonomouslogic/semantic-release-docker/issues/35)) ([283ed49](https://github.com/autonomouslogic/semantic-release-docker/commit/283ed49eda56f63ed777f6a6195c2eddf89f6eb5))
+
 ## [1.2.2](https://github.com/autonomouslogic/semantic-release-docker/compare/1.2.1...1.2.2) (2022-10-13)
 
 
