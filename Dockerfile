@@ -1,4 +1,4 @@
-FROM containerbase/buildpack:5.2.0
+FROM containerbase/buildpack:5.10.1
 
 LABEL name="semantic-release" \
   maintainer="Kenneth Jørgensen <kenneth@autonomouslogic.com>" \
@@ -10,16 +10,16 @@ LABEL name="semantic-release" \
 WORKDIR /usr/src/semantic-release
 
 # renovate: datasource=github-tags lookupName=git/git
-RUN install-tool git v2.38.1
+RUN install-tool git v2.39.0
 
 # renovate: datasource=docker versioning=docker
-RUN install-tool node 16.18.1
+RUN install-tool node 16.19.0
 
 # renovate: datasource=npm
 RUN install-tool yarn 1.22.19
 
 # renovate: datasource=docker versioning=docker
-RUN install-tool docker 20.10.21
+RUN install-tool docker 20.10.22
 
 # renovate: datasource=adoptium-java
 RUN install-tool java 17.0.5+8
@@ -28,7 +28,7 @@ RUN install-tool java 17.0.5+8
 RUN install-tool gradle 7.6
 
 # renovate: datasource=maven lookupName=org.apache.maven:maven
-RUN install-tool maven 3.8.6
+RUN install-tool maven 3.8.7
 
 RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
 RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" \
