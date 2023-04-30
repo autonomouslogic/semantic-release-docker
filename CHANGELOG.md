@@ -1,5 +1,13 @@
 Semantic Release Docker Changelog
 
+## [1.2.11](https://github.com/autonomouslogic/semantic-release-docker/compare/1.2.10...1.2.11) (2023-04-30)
+
+
+### Dependency Updates
+
+* **deps:** replace containerbase/buildpack docker tag with ghcr.io/containerbase/base 6.9.0 ([#45](https://github.com/autonomouslogic/semantic-release-docker/issues/45)) ([344c13e](https://github.com/autonomouslogic/semantic-release-docker/commit/344c13ef816b4429eca7eec6391aa04647f0767b))
+* **deps:** update dependency gradle to v8 ([#43](https://github.com/autonomouslogic/semantic-release-docker/issues/43)) ([f51e069](https://github.com/autonomouslogic/semantic-release-docker/commit/f51e069c918ec5f49974e576b4746e9d12bc6992))
+
 ## [1.2.10](https://github.com/autonomouslogic/semantic-release-docker/compare/1.2.9...1.2.10) (2023-04-03)
 
 
