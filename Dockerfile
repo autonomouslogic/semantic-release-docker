@@ -10,7 +10,7 @@ LABEL name="semantic-release" \
 WORKDIR /usr/src/semantic-release
 
 # renovate: datasource=github-tags lookupName=git/git
-RUN install-tool git v2.40.0
+RUN install-tool git v2.40.1
 
 # renovate: datasource=docker versioning=docker
 RUN install-tool node 16.20.0
@@ -19,10 +19,10 @@ RUN install-tool node 16.20.0
 RUN install-tool yarn 1.22.19
 
 # renovate: datasource=docker versioning=docker
-RUN install-tool docker 20.10.23
+RUN install-tool docker 20.10.24
 
 # renovate: datasource=adoptium-java
-RUN install-tool java 17.0.6+10
+RUN install-tool java 17.0.7+7
 
 # renovate: datasource=gradle-version versioning=gradle
 RUN install-tool gradle 8.1.1
