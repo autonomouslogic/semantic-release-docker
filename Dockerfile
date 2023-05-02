@@ -1,4 +1,4 @@
-FROM ghcr.io/containerbase/base:6.9.0
+FROM ghcr.io/containerbase/base:7.8.6
 
 LABEL name="semantic-release" \
   maintainer="Kenneth Jørgensen <kenneth@autonomouslogic.com>" \
@@ -13,7 +13,7 @@ WORKDIR /usr/src/semantic-release
 RUN install-tool git v2.40.1
 
 # renovate: datasource=docker versioning=docker
-RUN install-tool node 16.20.0
+RUN install-tool node 18.16.0
 
 # renovate: datasource=npm
 RUN install-tool yarn 1.22.19
