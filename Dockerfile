@@ -19,7 +19,7 @@ RUN install-tool node 18.16.0
 RUN install-tool yarn 1.22.19
 
 # renovate: datasource=docker versioning=docker
-RUN install-tool docker 20.10.24
+RUN install-tool docker 23.0.5
 
 # renovate: datasource=adoptium-java
 RUN install-tool java 17.0.7+7
