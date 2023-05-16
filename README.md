@@ -18,6 +18,7 @@ Installed packages:
 * _Tools_
   * [`jq`](https://stedolan.github.io/jq/)
   * [GitHub CLI `gh`](https://cli.github.com/)
+  * Build essential, like `make`
 
 ## Usage
 ```shell
