@@ -1,5 +1,12 @@
 Semantic Release Docker Changelog
 
+## [1.3.0](https://github.com/autonomouslogic/semantic-release-docker/compare/1.2.13...1.3.0) (2023-05-16)
+
+
+### Features
+
+* Install build-essential ([#49](https://github.com/autonomouslogic/semantic-release-docker/issues/49)) ([ffb7283](https://github.com/autonomouslogic/semantic-release-docker/commit/ffb72837b2707021578e7b0cec1abde91e4c33cb))
+
 ## [1.2.13](https://github.com/autonomouslogic/semantic-release-docker/compare/1.2.12...1.2.13) (2023-05-03)
 
 
