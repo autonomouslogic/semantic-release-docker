@@ -1,5 +1,12 @@
 Semantic Release Docker Changelog
 
+## [1.3.2](https://github.com/autonomouslogic/semantic-release-docker/compare/1.3.1...1.3.2) (2023-07-03)
+
+
+### Dependency Updates
+
+* **deps:** update all non-major dependencies ([#56](https://github.com/autonomouslogic/semantic-release-docker/issues/56)) ([3b5350a](https://github.com/autonomouslogic/semantic-release-docker/commit/3b5350a64cb2e9c85074b5538de4d344d358ab84))
+
 ## [1.3.1](https://github.com/autonomouslogic/semantic-release-docker/compare/1.3.0...1.3.1) (2023-06-05)
 
 
