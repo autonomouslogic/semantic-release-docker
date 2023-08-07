@@ -13,7 +13,7 @@ WORKDIR /usr/src/semantic-release
 RUN install-tool git v2.41.0
 
 # renovate: datasource=docker versioning=docker
-RUN install-tool node 18.16.1
+RUN install-tool node 18.17.0
 
 # renovate: datasource=npm
 RUN install-tool yarn 1.22.19
@@ -22,13 +22,13 @@ RUN install-tool yarn 1.22.19
 RUN install-tool docker 23.0.6
 
 # renovate: datasource=adoptium-java
-RUN install-tool java 17.0.7+7
+RUN install-tool java 17.0.8+7
 
 # renovate: datasource=gradle-version versioning=gradle
-RUN install-tool gradle 8.2
+RUN install-tool gradle 8.2.1
 
 # renovate: datasource=maven lookupName=org.apache.maven:maven
-RUN install-tool maven 3.9.3
+RUN install-tool maven 3.9.4
 
 RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
 RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" \
