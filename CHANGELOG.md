@@ -1,5 +1,12 @@
 Semantic Release Docker Changelog
 
+## [1.3.8](https://github.com/autonomouslogic/semantic-release-docker/compare/1.3.7...1.3.8) (2023-09-27)
+
+
+### Dependency Updates
+
+* **deps:** update actions/checkout action to v4 ([#60](https://github.com/autonomouslogic/semantic-release-docker/issues/60)) ([a6702c5](https://github.com/autonomouslogic/semantic-release-docker/commit/a6702c5567a3d1060838b761cad18755ea5f3e04))
+
 ## [1.3.7](https://github.com/autonomouslogic/semantic-release-docker/compare/1.3.6...1.3.7) (2023-09-18)
 
 
