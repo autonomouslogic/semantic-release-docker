@@ -1,5 +1,12 @@
 Semantic Release Docker Changelog
 
+## [1.4.0](https://github.com/autonomouslogic/semantic-release-docker/compare/1.3.11...1.4.0) (2023-11-01)
+
+
+### Features
+
+* Installed Docker Buildx ([#66](https://github.com/autonomouslogic/semantic-release-docker/issues/66)) ([2484c0d](https://github.com/autonomouslogic/semantic-release-docker/commit/2484c0d2dcfe04d08c7832b1ecb7c9de060328bf))
+
 ## [1.3.11](https://github.com/autonomouslogic/semantic-release-docker/compare/1.3.10...1.3.11) (2023-11-01)
 
 
