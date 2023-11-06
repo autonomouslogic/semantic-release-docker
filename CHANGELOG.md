@@ -1,5 +1,12 @@
 Semantic Release Docker Changelog
 
+## [1.4.2](https://github.com/autonomouslogic/semantic-release-docker/compare/1.4.1...1.4.2) (2023-11-06)
+
+
+### Dependency Updates
+
+* **deps:** update ghcr.io/containerbase/base docker tag to v9.23.12 ([#69](https://github.com/autonomouslogic/semantic-release-docker/issues/69)) ([0872be7](https://github.com/autonomouslogic/semantic-release-docker/commit/0872be70540bdf53575cce69085257be7a6760a6))
+
 ## [1.4.1](https://github.com/autonomouslogic/semantic-release-docker/compare/1.4.0...1.4.1) (2023-11-06)
 
 
