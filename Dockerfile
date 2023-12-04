@@ -1,4 +1,4 @@
-FROM ghcr.io/containerbase/base:9.23.12
+FROM ghcr.io/containerbase/base:9.26.2
 
 LABEL name="semantic-release" \
   maintainer="Kenneth Jørgensen <kenneth@autonomouslogic.com>" \
@@ -10,13 +10,13 @@ LABEL name="semantic-release" \
 WORKDIR /usr/src/semantic-release
 
 # renovate: datasource=github-tags lookupName=git/git
-RUN install-tool git v2.42.1
+RUN install-tool git v2.43.0
 
 # renovate: datasource=docker versioning=docker
-RUN install-tool node 18.18.2
+RUN install-tool node 18.19.0
 
 # renovate: datasource=npm
-RUN install-tool yarn 1.22.19
+RUN install-tool yarn 1.22.21
 
 # renovate: datasource=docker versioning=docker
 RUN install-tool docker 24.0.7
@@ -27,10 +27,10 @@ RUN docker buildx install
 RUN install-tool java 17.0.9+9
 
 # renovate: datasource=gradle-version versioning=gradle
-RUN install-tool gradle 8.4
+RUN install-tool gradle 8.5
 
 # renovate: datasource=maven lookupName=org.apache.maven:maven
-RUN install-tool maven 3.9.5
+RUN install-tool maven 3.9.6
 
 RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
 RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" \
