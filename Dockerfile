@@ -1,4 +1,4 @@
-FROM ghcr.io/containerbase/base:9.33.3
+FROM ghcr.io/containerbase/base:10.1.0
 
 LABEL name="semantic-release" \
   maintainer="Kenneth Jørgensen <kenneth@autonomouslogic.com>" \
