@@ -1,4 +1,4 @@
-FROM ghcr.io/containerbase/base:10.3.11
+FROM ghcr.io/containerbase/base:10.6.4
 
 LABEL name="semantic-release" \
   maintainer="Kenneth Jørgensen <kenneth@autonomouslogic.com>" \
@@ -10,10 +10,10 @@ LABEL name="semantic-release" \
 WORKDIR /usr/src/semantic-release
 
 # renovate: datasource=github-tags lookupName=git/git
-RUN install-tool git v2.44.0
+RUN install-tool git v2.45.0
 
 # renovate: datasource=docker versioning=docker
-RUN install-tool node 18.20.0
+RUN install-tool node 18.20.2
 
 # renovate: datasource=npm
 RUN install-tool yarn 1.22.22
@@ -24,7 +24,7 @@ COPY --from=docker/buildx-bin /buildx /usr/libexec/docker/cli-plugins/docker-bui
 RUN docker buildx install
 
 # renovate: datasource=adoptium-java
-RUN install-tool java 17.0.10+7
+RUN install-tool java 17.0.11+9
 
 # renovate: datasource=gradle-version versioning=gradle
 RUN install-tool gradle 8.7
