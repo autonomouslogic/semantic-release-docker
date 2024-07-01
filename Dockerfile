@@ -1,4 +1,4 @@
-FROM ghcr.io/containerbase/base:10.8.0
+FROM ghcr.io/containerbase/base:10.13.0
 
 LABEL name="semantic-release" \
   maintainer="Kenneth Jørgensen <kenneth@autonomouslogic.com>" \
@@ -30,7 +30,7 @@ RUN install-tool java 17.0.11+9
 RUN install-tool gradle 8.8
 
 # renovate: datasource=maven lookupName=org.apache.maven:maven
-RUN install-tool maven 3.9.7
+RUN install-tool maven 3.9.8
 
 RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
 RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" \
