@@ -24,7 +24,7 @@ COPY --from=docker/buildx-bin /buildx /usr/libexec/docker/cli-plugins/docker-bui
 RUN docker buildx install
 
 # renovate: datasource=adoptium-java
-RUN install-tool java 17.0.12+7
+RUN install-tool java 21.0.4+7.0.LTS
 
 # renovate: datasource=gradle-version versioning=gradle
 RUN install-tool gradle 8.10
