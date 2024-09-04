@@ -1,4 +1,4 @@
-name: Test
+name: Build
 on: [ push ]
 jobs:
   Test:
@@ -12,7 +12,16 @@ jobs:
         run: |
           docker build -t autonomouslogic/semantic-release .
 
-      - name: Docker Run
+      - name: Docker Test Run
         run: |
           docker run autonomouslogic/semantic-release
           docker run autonomouslogic/semantic-release --version
+
+      - name: Test
+        run: |
+          pwd
+          echo Test > test
+          git add test
+          git commit -m "Test"
+          git status
+          docker run -v $(pwd):/usr/src/app:ro -e GITHUB_TOKEN=$GITHUB_TOKEN autonomouslogic/semantic-release --dry-run
