@@ -12,13 +12,18 @@ jobs:
         run: |
           docker build -t autonomouslogic/semantic-release .
 
-      - name: Docker Test Run
+      - name: Test Run
         run: |
           docker run autonomouslogic/semantic-release
+
+      - name: Version
+        run: |
           docker run autonomouslogic/semantic-release --version
 
       - name: Test
         run: |
+          git config --global user.email "test@example.com"
+          git config --global user.name "test"
           pwd
           echo Test > test
           git add test
