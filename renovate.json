@@ -5,13 +5,6 @@
   ],
   "packageRules": [
     {
-      "description": "Limit Node version.",
-      "matchPackageNames": [
-        "node"
-      ],
-      "allowedVersions": "=18"
-    },
-    {
       "description": "Limit Java version.",
       "matchPackageNames": [
         "java"
