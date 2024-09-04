@@ -13,7 +13,7 @@ WORKDIR /usr/src/semantic-release
 RUN install-tool git v2.46.0
 
 # renovate: datasource=docker versioning=docker
-RUN install-tool node 18.20.4
+RUN install-tool node 20.17.0
 
 # renovate: datasource=npm
 RUN install-tool yarn 1.22.22
