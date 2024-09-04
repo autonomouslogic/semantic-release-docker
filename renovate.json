@@ -4,13 +4,6 @@
     "github>autonomouslogic/renovate-config"
   ],
   "packageRules": [
-    {
-      "description": "Limit Java version.",
-      "matchPackageNames": [
-        "java"
-      ],
-      "allowedVersions": "=17"
-    }
   ],
   "regexManagers": [
     {
