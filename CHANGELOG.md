@@ -1,5 +1,20 @@
 Semantic Release Docker Changelog
 
+## [1.4.14](https://github.com/autonomouslogic/semantic-release-docker/compare/1.4.13...1.4.14) (2024-09-04)
+
+
+### Dependency Updates
+
+* **deps:** update dependency java to v21 ([#93](https://github.com/autonomouslogic/semantic-release-docker/issues/93)) ([f8196c9](https://github.com/autonomouslogic/semantic-release-docker/commit/f8196c96224c0e52771aabfce31c688497b88da7))
+* **deps:** update node.js to v20 ([#92](https://github.com/autonomouslogic/semantic-release-docker/issues/92)) ([ba3cb46](https://github.com/autonomouslogic/semantic-release-docker/commit/ba3cb46c55742f5b2782ce32c8f727c1c95fcbad))
+* **deps:** update semantic-release monorepo (major) ([#75](https://github.com/autonomouslogic/semantic-release-docker/issues/75)) ([f5fabf1](https://github.com/autonomouslogic/semantic-release-docker/commit/f5fabf1f1043776e82814cedeb2ad722e3c3cd35))
+
+
+### Miscellaneous Chores
+
+* Remove Node JS version limitation ([ced0299](https://github.com/autonomouslogic/semantic-release-docker/commit/ced0299c449e7ff842e3d148fcd4eecc1853e2b5))
+* Removed Java version contraint ([5bca976](https://github.com/autonomouslogic/semantic-release-docker/commit/5bca97615f76688dff1c51d40fb9f643ca086719))
+
 ## [1.4.13](https://github.com/autonomouslogic/semantic-release-docker/compare/1.4.12...1.4.13) (2024-09-02)
 
 
