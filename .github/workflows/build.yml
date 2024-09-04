@@ -12,15 +12,11 @@ jobs:
         run: |
           docker build -t autonomouslogic/semantic-release .
 
-      - name: Test Run
-        run: |
-          docker run autonomouslogic/semantic-release
-
       - name: Version
         run: |
           docker run autonomouslogic/semantic-release --version
 
-      - name: Test
+      - name: Test Release
         run: |
           git config --global user.email "test@example.com"
           git config --global user.name "test"
@@ -29,4 +25,4 @@ jobs:
           git add test
           git commit -m "Test"
           git status
-          docker run -v $(pwd):/usr/src/app:ro -e GITHUB_TOKEN=$GITHUB_TOKEN autonomouslogic/semantic-release --dry-run
+          docker run -v $(pwd):/usr/src/app -e GITHUB_TOKEN=$GITHUB_TOKEN autonomouslogic/semantic-release --dry-run
