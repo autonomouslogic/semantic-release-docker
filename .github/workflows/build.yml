@@ -25,4 +25,4 @@ jobs:
           git add test
           git commit -m "Test"
           git status
-          docker run -v $(pwd):/usr/src/app -e GITHUB_TOKEN=$GITHUB_TOKEN autonomouslogic/semantic-release --dry-run
+          docker run -v $(pwd):/usr/src/app -e GITHUB_TOKEN=$GITHUB_TOKEN autonomouslogic/semantic-release --dry-run --branch $(git rev-parse --abbrev-ref HEAD)
