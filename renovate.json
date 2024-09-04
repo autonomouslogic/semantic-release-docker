@@ -4,6 +4,20 @@
     "github>autonomouslogic/renovate-config"
   ],
   "packageRules": [
+    {
+      "description": "Pin semantic-release due to compatibility issues.",
+      "matchPackageNames": [
+        "semantic-release"
+      ],
+      "allowedVersions": "=23.1.1"
+    },
+    {
+      "description": "Pin conventional-changelog-conventionalcommits due to compatibility issues.",
+      "matchPackageNames": [
+        "conventional-changelog-conventionalcommits"
+      ],
+      "allowedVersions": "=7.0.2"
+    }
   ],
   "regexManagers": [
     {
