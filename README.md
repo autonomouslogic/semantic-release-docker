@@ -3,7 +3,7 @@ Docker image for [Semantic Release](https://github.com/semantic-release/semantic
 View on [Docker Hub](https://hub.docker.com/r/autonomouslogic/semantic-release).
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/autonomouslogic/semantic-release-docker)](https://github.com/autonomouslogic/semantic-release-docker/releases)
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/autonomouslogic/semantic-release-docker/Test/main)](https://github.com/autonomouslogic/semantic-release-docker/actions)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/autonomouslogic/semantic-release-docker/build.yml?branch=main)](https://github.com/autonomouslogic/semantic-release-docker/actions)
 [![GitHub](https://img.shields.io/github/license/autonomouslogic/semantic-release-docker)](https://spdx.org/licenses/MIT-0.html)
 
 Installed packages:
