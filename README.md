@@ -1,4 +1,11 @@
 # Semantic Release Docker
+
+**This repo has been archived**
+Use `npx semantic-release` instead, it works much better than running it in a Docker container.
+If you're looking for a Docker image with Java and Node installed, see [Base Image](https://github.com/autonomouslogic/base-image).
+
+## Old Contents
+
 Docker image for [Semantic Release](https://github.com/semantic-release/semantic-release).
 View on [Docker Hub](https://hub.docker.com/r/autonomouslogic/semantic-release).
 
